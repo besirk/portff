@@ -10,24 +10,9 @@ const Footer = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="modern__footer-links_div">
-          <h4>Links</h4>
-          <p>Overson</p>
-          <p>Social Media</p>
-          <p>Privacy Policy</p>
-          <p>Contact</p>
+          <h4>Projects Section Coming soon...</h4>
         </div>
-        <div className="modern__footer-links_div">
-          <h4>Company</h4>
-          <p>Terms & Conditions</p>
-          <p>Social Media</p>
-          <p>Privacy Policy</p>
-        </div>
-        <div className="modern__footer-links_div">
-          <h4>Get in Touch</h4>
-          <p>Skopje North Macedonia, 1000</p>
-          <p>070362182</p>
-          <p>kurtishi45@gmail.com</p>
-        </div>
+       
       </div>
       
     </div>
