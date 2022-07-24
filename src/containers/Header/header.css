@@ -139,7 +139,29 @@
     
 }
 
-
+.modern__header-content_smedia {
+    display: flex;
+    margin-top: 2rem;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 300;
+}
+.modern__header-content_smedia ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+.modern__header-content_smedia ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.modern__header-content_smedia ul li a svg {
+    transition: 0.3s ease-in-out;
+}
+.modern__header-content_smedia ul li:hover a svg {
+    fill: #ffd700;
+}
 
 
 @media screen  and (max-width:1050px){

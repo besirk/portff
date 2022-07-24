@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import './header.css';
+import { FaAddressCard, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
 import Typical from 'react-typical'
@@ -24,7 +25,15 @@ const Header = () => {
       /> 
         <p>I'm a Frontend Software Developer with a strong passion for building web applications with great user experiences</p>
         
-        
+        <div className='modern__header-content_smedia'>
+          <ul>
+            <li><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={27}/> </a></li>
+            <li><a href="https://www.github.com/besirk"><FaGithub  size={27}/></a></li>
+            <li><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={27} /> </a></li>
+            <li><a href="https://docdro.id/ozAkoAM"> <FaAddressCard size={27} /> </a></li>
+
+          </ul>
+        </div>
       </div>  
       
           <Canvas className='modern__header-image'  >
