@@ -27,10 +27,10 @@ const Header = () => {
         
         <div className='modern__header-content_smedia'>
           <ul>
-            <li><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={27}/> </a></li>
-            <li><a href="https://www.github.com/besirk"><FaGithub  size={27}/></a></li>
-            <li><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={27} /> </a></li>
-            <li><a href="https://docdro.id/ozAkoAM"> <FaAddressCard size={27} /> </a></li>
+            <li><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={30}/> </a></li>
+            <li><a href="https://www.github.com/besirk"><FaGithub  size={30}/></a></li>
+            <li><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={30} /> </a></li>
+            <li><a href="https://docdro.id/ozAkoAM"> <FaAddressCard size={30} /> </a></li>
 
           </ul>
         </div>
