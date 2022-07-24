@@ -22,12 +22,12 @@ const Brand = () => {
       <motion.ul
         initial={{opacity:0}}
         whileInView={{opacity:1}}
-        transition={{delay:0.8}}
+        transition={{delay:0.6}}
         >
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>ReactJs</li>
+        <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:1}} >HTML</motion.li>
+        <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:1.2}} >CSS</motion.li>
+        <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:1.4}} >Javascript</motion.li>
+        <motion.li initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:1.6}} >ReactJs</motion.li>
       </motion.ul>
       </motion.div>
       </motion.div>

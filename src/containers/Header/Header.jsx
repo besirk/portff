@@ -7,6 +7,7 @@ import Typical from 'react-typical'
 import {Canvas} from '@react-three/fiber';
 import World from '../../components/World';
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
+import { motion } from 'framer-motion';
 
 
 
@@ -14,23 +15,28 @@ const Header = () => {
   return (
     <>
   
-    <div className='modern__header section__padding ' id='home'>
+    <motion.div className='modern__header section__padding ' id='home'
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      transition={{delay:0.4}}
+    >
      
-      <div className='modern__header-content'>
+      <div className='modern__header-content'
+      >
         
          <Typical
         steps={['Hi, I am Besir Kurtishi', 3000, 'I\'m a Frontend Developer.', 1000, 'I also Like animations.', 1000, 'And I also like ThreeJs', 1000]}
         loop={Infinity}
         wrapper="h1"
       /> 
-        <p>I'm a Frontend Software Developer with a strong passion for building web applications with great user experiences</p>
+        <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.8}}>I'm a Frontend Software Developer with a strong passion for building web applications with great user experiences</motion.p>
         
         <div className='modern__header-content_smedia'>
           <ul>
-            <li><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={30}/> </a></li>
-            <li><a href="https://www.github.com/besirk"><FaGithub  size={30}/></a></li>
-            <li><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={30} /> </a></li>
-            <li><a href="https://docdro.id/ozAkoAM"> <FaAddressCard size={30} /> </a></li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1}} ><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={30}/> </a></motion.li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.15}} ><a href="https://www.github.com/besirk"><FaGithub  size={30}/></a></motion.li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.25}} ><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={30} /> </a></motion.li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.35}} ><a href="https://docdro.id/ozAkoAM"> <FaAddressCard size={30} /> </a></motion.li>
 
           </ul>
         </div>
@@ -47,7 +53,7 @@ const Header = () => {
          
           </Canvas>
       
-    </div>
+    </motion.div>
 
     </>
   )
