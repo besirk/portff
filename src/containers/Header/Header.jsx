@@ -29,7 +29,7 @@ const Header = () => {
       
           <Canvas className='modern__header-image'  >
           <OrbitControls enableZoom={false} panSpeed={2} autoRotate={true} />
-          <PerspectiveCamera fov={20} near={1} position={[20,20,10]} makeDefault={true} />
+          <PerspectiveCamera fov={15} near={2} position={[20,20,10]} makeDefault={true} />
           <ambientLight intensity={0.5}/>
           <directionalLight position={[-2,5,2]} intensity={1} />
           <Suspense fallback={null}  >

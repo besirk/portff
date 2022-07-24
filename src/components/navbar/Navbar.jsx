@@ -6,10 +6,10 @@ import logo from '../../assets/lgg.png';
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#whpt3">About Us</a></p>
-    <p><a href="#features">Case Studies</a></p>
-    <p><a href="#whpt3">Open Ai</a></p>
-    <p><a href="#blog">Library</a></p>
+    <p><a href="#skills">Skills</a></p>
+    <p><a href="#projects">Projects</a></p>
+    <p><a href="#contact">Contact</a></p>
+    
   </>        
 )
 
