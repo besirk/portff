@@ -40,7 +40,7 @@ const projectsData = [
     githubRepo: "https://github.com/besirk/landessa-mk"
   },
   {
-    title: "Login/SignUp Page",
+    title: "Login Page",
     tech: "Html, CSS, JS",
     description:
       "This is a fully Responsive with a modern UI/UX  Website. This website is created using HTML, CSS and Javascript",
