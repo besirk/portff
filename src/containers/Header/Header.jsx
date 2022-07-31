@@ -8,6 +8,7 @@ import {Canvas} from '@react-three/fiber';
 import World from '../../components/World';
 import { OrbitControls, PerspectiveCamera, Stars } from '@react-three/drei';
 import { motion } from 'framer-motion';
+import { CgScrollV } from 'react-icons/cg';
 
 
 
@@ -23,7 +24,7 @@ const Header = () => {
      
       <div className='modern__header-content'
       >
-        
+        <CgScrollV className='scroll'/> 
          <Typical
         steps={['Hi, I am Besir Kurtishi', 3000, 'I\'m a Frontend Developer.', 1000, 'I also Like animations.', 1000, 'And I also like ThreeJs', 1000]}
         loop={Infinity}
