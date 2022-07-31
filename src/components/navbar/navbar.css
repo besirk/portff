@@ -1,13 +1,18 @@
 .modern__navbar{
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
     backdrop-filter: blur(10px);
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 10rem;
-    z-index: 2;
+    padding: 2rem 7rem;
+    z-index: 999;
 }
 
+#active {
+    color: var(--color-header);
+}
 /* .modern__navbar-links{
    
     display: flex;
@@ -58,7 +63,7 @@
     transition: 0.25s ease;
 }
 .modern__navbar-links_container p:hover {
-    color: #ffd700;
+    color: var(--color-header);
 }
 
 .modern__navbar-sign button,

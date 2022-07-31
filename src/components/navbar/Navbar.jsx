@@ -5,7 +5,7 @@ import logo from '../../assets/lgg.png';
 
 const Menu = () => (
   <>
-    <p><a href="#home">Home</a></p>
+    <p><a href="#home" id='active'>Home</a></p>
     <p><a href="#skills">Skills</a></p>
     <p><a href="#projects">Projects</a></p>
     <p><a href="#contact">Contact</a></p>

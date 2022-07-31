@@ -28,7 +28,7 @@
 }
 .modern__header-content h1 {
     font-family: var(--font-family);
-    color: #ffd700;
+    color: var(--color-header);
     font-weight: 800;
     font-size: 45px;
     line-height: 75px;
@@ -160,7 +160,7 @@
     transition: 0.3s ease-in-out;
 }
 .modern__header-content_smedia ul li:hover a svg {
-    fill: #ffd700;
+    fill: var(--color-header);
 }
 
 
