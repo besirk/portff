@@ -9,7 +9,7 @@
   font-size: 3rem;
   font-family: 'Poppins',var(--font-family);
   margin-bottom: 6rem;
-  color: #ffd700;
+  color: var(--color-header);
 }
 
 .project__list {
