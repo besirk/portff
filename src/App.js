@@ -2,19 +2,20 @@ import React from 'react';
 
 
 import {Footer,Header} from './containers';
-import {Brand, Navbar} from './components';
+import {Brand, Navbar,Projects} from './components';
 import './App.css';
 
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='App gradient__bg'>
      
-        <div className='gradient__bg'>
+        <div>
             <Navbar />
             <Header />
         </div>
-        <Brand />
+        <Brand  />
+        <Projects />
         <Footer />
     </div>
   )

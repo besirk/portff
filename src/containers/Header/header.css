@@ -215,6 +215,9 @@
         font-size: 12px;
         line-height: 16px;
     }
+    .modern__header {
+        padding: 1rem 3rem;
+    }
 }
 
 

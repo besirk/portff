@@ -1,7 +1,7 @@
 .modern__brand{
    
     position: relative;
-    height: 250px;
+    height: 450px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -19,10 +19,10 @@
     justify-content: center;
 }
 .modern__brand h1 {
-    color: #fff;
+    color: #ffd700;
     font-weight: 700;
     font-family: var(--font-family);
-    font-size: 50px;
+    font-size: 75px;
     z-index: 999;
 }
 .modern__brand-content{
@@ -35,13 +35,19 @@
     display: flex;
     flex-direction: row;
     
-    color: rgb(206, 202, 202);
+    color: #8ecae6;
 }
 .modern__brand-content ul li {
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     z-index: 10;
     font-family: var(--font-family);
     list-style-type: none;
+}
+
+@media screen and (max-width:450px){
+    .modern__brand-content ul li {
+        font-size: 18px;
+    }
 }
