@@ -6,8 +6,8 @@ import {motion} from 'framer-motion';
 const Brand = () => {
   return (
    <>
-    <div id='skills'></div>
-    <motion.div className='modern__brand section__padding'  
+    
+    <motion.div className='modern__brand section__padding'  id='skills'
       initial = {{opacity:0}}
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
@@ -16,9 +16,14 @@ const Brand = () => {
       <motion.div className='modern__brand-content' 
         initial={{opacity:0}}
         whileInView={{opacity:1}}
-        transition={{delay:0.5}}
+        
       >
-      <h1>Skills</h1>
+      <motion.h1
+        initial={{opacity:0,y:100}}
+        whileInView={{opacity:1,y:0}}
+        transition={{delay:0.5}}
+
+      >Skills</motion.h1>
       
       </motion.div>
       </motion.div>

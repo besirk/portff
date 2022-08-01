@@ -5,10 +5,15 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import './technologies.css';
 import user from '../../assets/besir.png';
-
+import {motion} from 'framer-motion';
 const Technologies = () => {
   return (
-    <div className="tech">
+    <motion.div className="tech"
+        initial={{opacity:0,y:100}}
+        whileInView={{opacity:1,y:0}}
+        transition={{delay:0.5}}
+
+    >
         <h1 className='techno__header-text'>
             Technologies
         </h1>
@@ -39,7 +44,7 @@ const Technologies = () => {
             
         </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 
