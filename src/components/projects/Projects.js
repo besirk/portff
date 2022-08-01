@@ -62,11 +62,11 @@ const Projects = () => {
       <div className="container">
         <div className="row">
           
-            <Typical className="section__title" 
-              steps={[2000,"Here are some of my Projects",2000,""]}
-              loop={Infinity}
-              wrapper="h1"
-            />
+            <h1 className="section__title" >
+              Here are some of my Projects
+            </h1>
+              
+            
           
           <motion.ul className="project__list"
           initial = {{opacity:0}}

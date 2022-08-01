@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import {Footer,Header} from './containers';
-import {Brand, Nav, Navbar,Projects} from './components';
+import {Brand, Nav, Navbar,Projects, Technologies} from './components';
 import './App.css';
 
 
@@ -16,6 +16,7 @@ const App = () => {
             <Header />
             
         <Brand  />
+        <Technologies />
         <Projects />
         <Footer />
     </div>

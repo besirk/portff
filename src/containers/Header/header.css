@@ -169,6 +169,7 @@
     right: 0;
     color: var(--color-header);
     font-size: 4rem;
+    
 }
 
 @media screen  and (max-width:1050px){
