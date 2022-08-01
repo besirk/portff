@@ -1,6 +1,6 @@
 
 import {motion} from 'framer-motion';
-import Typical from 'react-typical'
+
 
 
 import ProjectSingle from "./ProjectSingle";

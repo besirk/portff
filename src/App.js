@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import {Footer,Header} from './containers';
-import {Brand, Nav, Navbar,Projects, Technologies} from './components';
+import {Brand, Nav, Projects, Technologies} from './components';
 import './App.css';
 
 
@@ -11,7 +11,7 @@ const App = () => {
     <div className='App gradient__bg'>
      
            
-            {/* <Navbar /> */}
+          
             <Nav />
             <Header />
             
