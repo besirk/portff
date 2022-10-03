@@ -10,8 +10,18 @@ import AiImg from "../../assets/projects/s.png";
 import NetflikImg from "../../assets/projects/netflik.png";
 import LandessaImg from "../../assets/projects/landessa.png";
 import LoginImg from "../../assets/projects/login.png";
+import Phorma from "../../assets/projects/phormalabs.png";
 
 const projectsData = [
+  {
+    title: "Phormalabs",
+    tech: "React, TailwindCSS",
+    description:
+      "Founder and designer of my startup Phormalabs a social media agency",
+    image: Phorma,
+    liveSite: "https://phormalabs.com",
+    githubRepo: "https://github.com/besirk/"
+  },
   {
     title: "GPT-3 AI",
     tech: "React, CSS, Html, BEM Methodology",
