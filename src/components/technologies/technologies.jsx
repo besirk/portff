@@ -8,6 +8,7 @@ import user from '../../assets/besir.png';
 import {motion} from 'framer-motion';
 
 const Technologies = () => {
+    
   return (
       <>
       
@@ -15,6 +16,7 @@ const Technologies = () => {
         initial={{opacity:0,y:100}}
         whileInView={{opacity:1,y:0}}
         transition={{delay:0.5}}
+        exit={{opacity:0}}
 
     >
  

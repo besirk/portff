@@ -52,6 +52,13 @@ const projectsData = [
 ];
 
 const Projects = () => {
+  
+  const list = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  }
+  
+ 
   return (
     <motion.section id="projects" 
       initial = {{opacity:0}}
@@ -73,9 +80,10 @@ const Projects = () => {
             
           
           <motion.ul className="project__list"
-         initial={{opacity:0,y:100}}
-            whileInView={{opacity:1,y:0}}
-            transition={{delay:0.9}}>
+              initial="hidden"
+              whileInView="visible"
+              variants={list}
+              >
             {projectsData.map((projectData, index) => {
               return (
                 <ProjectSingle 
