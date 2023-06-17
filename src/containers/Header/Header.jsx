@@ -6,6 +6,7 @@ import { FaAddressCard, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
 import Typical from 'react-typical'
 import {Canvas} from '@react-three/fiber';
 import World from '../../components/World';
+import Porsche from '../../components/Porsche';
 import { OrbitControls, PerspectiveCamera, Stars } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import { CgScrollV } from 'react-icons/cg';
@@ -45,12 +46,15 @@ const Header = () => {
       
           <Canvas className='modern__header-image'  >
           <OrbitControls enableZoom={false} panSpeed={2} autoRotate={true} />
-          <PerspectiveCamera fov={15} near={2} position={[20,20,10]} makeDefault={true} />
-          <ambientLight intensity={0.5}/>
+          <PerspectiveCamera fov={10} near={1} position={[20,20,10]} makeDefault={true} />
+          <ambientLight intensity={1} />
           <Stars />
-          <directionalLight position={[-2,5,2]} intensity={1} />
+          <directionalLight position={[10,30,0]} intensity={1} />
+          <directionalLight position={[30,30,10]} intensity={1} />
+          <directionalLight position={[-30,30,10]} intensity={1} />
           <Suspense fallback={null}  >
-          <World  />
+          {/* <World  /> */}
+          <Porsche />
           </Suspense>
          
           </Canvas>

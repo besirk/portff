@@ -2,7 +2,7 @@
 
 .tech{
     width: 100%;
-    max-width: 1100px;
+    
     margin: 5rem auto;
     padding: 4rem 1rem;
     display: flex;
@@ -10,12 +10,14 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Poppins',var(--font-family);
+    position: relative;
 }
 .techno__header-text{
     color: var(--color-header);
     text-align: left;
     font-size: 48px;
     margin-bottom: 3rem;
+    z-index: 10000;
 }
 
 .techno__main{ 
@@ -23,6 +25,7 @@
     align-items: center;
     flex-direction: row-reverse;
     gap: 80px;
+    z-index: 100000;
 }
 .techno__img {
     width: 250px;
@@ -31,8 +34,9 @@
     border-radius: 50%;
     padding: 32px;
     flex: 2;
+    z-index: 9999;
 }
-.technos {
+.technos  {
     padding: 0 24px;
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +46,7 @@
     max-width: 800px;
     margin: 0 auto;
     flex: 3;
+    z-index: 9999;
 }
  .techno_lang {
     display: flex;

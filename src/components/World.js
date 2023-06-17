@@ -123,3 +123,4 @@ export default function Model({ ...props }) {
 }
 
 useGLTF.preload('/world.gltf')
+
