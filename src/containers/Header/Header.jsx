@@ -36,8 +36,8 @@ const Header = () => {
           <ul>
             <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1}} ><a href="https://www.instagram.com/besirkurtishi_"> <FaInstagram   size={30}/> </a></motion.li>
             <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.15}} ><a href="https://www.github.com/besirk"><FaGithub  size={30}/></a></motion.li>
-            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.25}} ><a href="https://www.linkedin.com/in/besir-kurtishi-660bb6197/"> <FaLinkedin size={30} /> </a></motion.li>
-            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.35}} ><a href="https://docdro.id/WphQcsQ"> <FaAddressCard size={30} /> </a></motion.li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.25}} ><a href="https://www.linkedin.com/in/besirk/"> <FaLinkedin size={30} /> </a></motion.li>
+            <motion.li initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.35}} ><a href="https://docdro.id/zOaOCyo"> <FaAddressCard size={30} /> </a></motion.li>
 
           </ul>
         </div>

@@ -10,7 +10,7 @@ import AiImg from "../../assets/projects/s.png";
 import NetflikImg from "../../assets/projects/netflik.png";
 import LandessaImg from "../../assets/projects/landessa.png";
 import LoginImg from "../../assets/projects/login.png";
-import Phorma from "../../assets/projects/phormalabs.png";
+import Phorma from "../../assets/projects/phormalabss.png";
 
 const projectsData = [
   {
@@ -74,6 +74,7 @@ const Projects = () => {
       initial = {{opacity:0}}
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.3 }}
+      viewport={{once:true}}
     >
 
       <div className="container">
@@ -83,6 +84,8 @@ const Projects = () => {
             initial={{opacity:0,y:100}}
             whileInView={{opacity:1,y:0}}
             transition={{delay:0.7}}
+            viewport={{once:true}}
+
             >
               Here are some of my Projects
             </motion.h1>
@@ -93,6 +96,8 @@ const Projects = () => {
               initial="hidden"
               whileInView="visible"
               variants={list}
+              viewport={{once:true}}
+
               >
             {projectsData.map((projectData, index) => {
               return (

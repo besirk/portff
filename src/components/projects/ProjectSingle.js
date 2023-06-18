@@ -1,12 +1,13 @@
 import { BsGithub } from "react-icons/bs";
 import { BiLink } from "react-icons/bi";
 import "./projects.css";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const ProjectSingle = ({ projectData, index }) => {
- 
+
   return (
-    <motion.li key={index} className="project" initial={{opacity:0,y:100}} whileInView={{opacity:1,y:0}} transition={{delay:0.5}} >
+    <motion.li key={index} className="project" viewport={{ once: true }}
+      initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} >
       <div className="project__wrapper">
         <img
           className="project__img"
